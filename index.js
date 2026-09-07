@@ -22,7 +22,7 @@ connectDB();
 // Middleware
 app.use(
     cors({
-        origin: 'http://scosut.github.io',
+        origin: 'https://scosut.github.io',
         credentials: true,
     }),
 );
